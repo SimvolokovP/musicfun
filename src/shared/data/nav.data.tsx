@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import type { ReactNode } from "react";
 
-interface NavItem {
+export interface NavItem {
   id: number;
   icon: ReactNode;
   label: string;

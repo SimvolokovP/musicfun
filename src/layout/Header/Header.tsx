@@ -1,3 +1,5 @@
+import { LanguageSwitcher } from "../../components/LanguageSwitcher/LanguageSwitcher";
+
 export const Header = () => {
   return (
     <header className="py-2 h-20 bg-bg-primary w-full">
@@ -10,7 +12,7 @@ export const Header = () => {
         ) : (
           <LoginButtonAndModal />
         )} */}
-          <button>1</button>
+          <LanguageSwitcher />
           <button>2</button>
         </div>
       </div>

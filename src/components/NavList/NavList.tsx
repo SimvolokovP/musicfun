@@ -1,13 +1,15 @@
 import { NavLink } from "react-router-dom";
-import { navItems } from "../../shared/data/nav.data";
-
-const navSections = [
-  { items: navItems.slice(0, 2) },
-  { items: navItems.slice(2, 4), hasBorder: true },
-  { items: navItems.slice(4), hasBorder: true },
-];
+import { useNavItems } from "../../hooks/nav/useNavItems";
 
 export function NavList() {
+  const navItems = useNavItems();
+
+  const navSections = [
+    { items: navItems.slice(0, 2) },
+    { items: navItems.slice(2, 4), hasBorder: true },
+    { items: navItems.slice(4), hasBorder: true },
+  ];
+
   return (
     <nav>
       {navSections.map((section, sectionIndex) => (
