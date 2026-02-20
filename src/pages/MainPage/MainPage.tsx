@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { MOCK_HASHTAGS } from "../../shared/data/hashtags.data";
-import { TagsList } from "../../ui/TagsList/TagsList";
+import { TagsList } from "../../shared/ui/TagsList/TagsList";
 import "./MainPage.scss";
 
 export function MainPage() {

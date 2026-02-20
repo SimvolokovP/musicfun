@@ -1,4 +1,4 @@
-import { LanguageSwitcher } from "../../components/LanguageSwitcher/LanguageSwitcher";
+import { LanguageSwitcher } from "../../shared/components/LanguageSwitcher/LanguageSwitcher";
 
 export const Header = () => {
   return (

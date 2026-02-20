@@ -1,4 +1,5 @@
-import { NavList } from "../../components/NavList/NavList";
+import { NavList } from "../../shared/components/NavList/NavList";
+
 
 export function Sidebar() {
   return (

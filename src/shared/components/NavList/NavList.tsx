@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { useNavItems } from "../../hooks/nav/useNavItems";
+import { useNavItems } from "./useNavItems";
 
 export function NavList() {
   const navItems = useNavItems();
