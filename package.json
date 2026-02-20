@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate:api": "pnpm openapi-typescript https://musicfun.it-incubator.app/api-json -o ./src/shared/api/schema.ts --root-types --enum --enum-values --dedupe-enums"
+    "generate:api": "npm openapi-typescript https://musicfun.it-incubator.app/api-json -o ./src/shared/api/schema.ts --root-types --enum --enum-values --dedupe-enums"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",

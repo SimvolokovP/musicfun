@@ -7,4 +7,10 @@
     var(--color-bg-secondary) 300px,
     var(--color-bg-secondary) 100%
   );
+
+  @media (max-width: 768px) {
+    padding: 15px 20px 75px 20px;
+    min-height: calc(100vh - 188px);
+
+  }
 }

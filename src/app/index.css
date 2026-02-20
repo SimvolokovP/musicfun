@@ -44,10 +44,32 @@
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 32px;
+
+  @media (max-width: 768px) {
+    padding: 0 16px;
+  }
 }
 
 body {
   margin: 0;
   color: var(--color-text-primary);
   background-color: var(--color-bg-primary);
+  font-size: 16px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 1.5s infinite;
 }

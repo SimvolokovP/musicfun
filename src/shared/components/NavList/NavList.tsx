@@ -5,9 +5,9 @@ export function NavList() {
   const navItems = useNavItems();
 
   const navSections = [
-    { items: navItems.slice(0, 2) },
-    { items: navItems.slice(2, 4), hasBorder: true },
-    { items: navItems.slice(4), hasBorder: true },
+    { items: navItems.slice(0, 1) },
+    { items: navItems.slice(1, 2), hasBorder: true },
+    { items: navItems.slice(2, 3), hasBorder: true },
   ];
 
   return (

@@ -1,11 +1,4 @@
-import {
-  CirclePlus,
-  FileMusic,
-  House,
-  ListMusic,
-  Music,
-  Upload,
-} from "lucide-react";
+import { House, Music, Upload } from "lucide-react";
 import type { ReactNode } from "react";
 
 export interface NavItem {
@@ -22,34 +15,34 @@ export const navItems: NavItem[] = [
     label: "Home",
     href: "/",
   },
-  {
-    id: 2,
-    icon: <FileMusic size={28} />,
-    label: "Your Library",
-    href: "/library",
-  },
+  // {
+  //   id: 2,
+  //   icon: <FileMusic size={28} />,
+  //   label: "Your Library",
+  //   href: "/library",
+  // },
   {
     id: 3,
     icon: <Upload size={28} />,
     label: "Upload Track",
     href: "/upload",
   },
-  {
-    id: 4,
-    icon: <CirclePlus size={28} />,
-    label: "Create Playlist",
-    href: "/create-playlist",
-  },
+  // {
+  //   id: 4,
+  //   icon: <CirclePlus size={28} />,
+  //   label: "Create Playlist",
+  //   href: "/create-playlist",
+  // },
   {
     id: 5,
     icon: <Music size={28} />,
     label: "All Tracks",
     href: "/tracks",
   },
-  {
-    id: 6,
-    icon: <ListMusic size={28} />,
-    label: "All Playlists",
-    href: "/playlists",
-  },
+  // {
+  //   id: 6,
+  //   icon: <ListMusic size={28} />,
+  //   label: "All Playlists",
+  //   href: "/playlists",
+  // },
 ];
